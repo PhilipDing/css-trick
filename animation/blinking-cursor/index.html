@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>blinking-cursor</title>
+
+  <style>
+    .cursor::after {
+      content: '|';
+      animation: blink 1s infinite step-end;
+    }
+
+    @keyframes blink {
+      from, to {
+        color: #666
+      }
+      50% {
+        color: transparent;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="cursor">
+    hello world
+  </div>
+</body>
+
+</html>
