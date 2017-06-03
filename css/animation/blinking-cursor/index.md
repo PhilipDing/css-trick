@@ -17,3 +17,5 @@ CSS:
   50% { color: transparent; }
 }
 ```
+
+![](./blinking-cursor.gif)

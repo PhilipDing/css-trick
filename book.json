@@ -1,0 +1,9 @@
+{
+    "title": "工作学习记录",
+    "plugins": [ "github" ],
+    "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/PhilipDing/study.git"
+        }
+    }
+}
