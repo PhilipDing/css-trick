@@ -1,9 +1,20 @@
 {
     "title": "工作学习记录",
-    "plugins": [ "github" ],
+    "plugins": [
+        "github",
+        "splitter"
+    ],
     "pluginsConfig": {
         "github": {
             "url": "https://github.com/PhilipDing/study.git"
+        },
+        "sharing": {
+            "facebook": false,
+            "twitter": false,
+            "google": false,
+            "weibo": true,
+            "instapaper": false,
+            "vk": false
         }
     }
 }

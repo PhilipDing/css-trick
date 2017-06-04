@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        table {
+            margin: 0 auto;
+            border-spacing:0px 20px;
+        }
+        .arrow {
+            display: inline-block;
+        }
+        .arrow-90 {
+            width: 10px;
+            height: 10px;
+            border-top: 2px solid #000;
+            border-right: 2px solid #000;
+            transform: rotate(45deg);
+        }
+        .arrow-no-90 {
+            width: 10px;
+            height: 10px;
+            border-top: 2px solid #000;
+            border-right: 2px solid #000;
+            transform: rotate(55deg) skewX(30deg);   
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>90°箭头</td>
+            <td><span class="arrow arrow-90"></span></td>
+        </tr>
+        <tr>
+            <td>非90°箭头</td>
+            <td><span class="arrow arrow-no-90"></span></td>
+        </tr>
+    </table>
+</body>
+</html>
