@@ -1,3 +1,5 @@
 * [动画](animation/README.md)
     * [blinking-cursor](animation/blinking-cursor/index.md)
 * [箭头](arrow/README.md)
+* [Bugs](bug-list/README.md)
+    * [Safari中的select高度不能设置](bug-list/safari-select.md)
