@@ -1,3 +1,3 @@
 ## Bugs
 
-* [Safari中的select高度不能设置](bug-list/safari-select.md)
+* [Safari中的select高度不能设置](safari-select.md)
